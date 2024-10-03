@@ -126,7 +126,7 @@ func Access(c *gin.Context) {
 		zap.String("requestID", requestid.Get(c)),
 	}
 
-	if referer := c.GetHeader("Referer"); referer != "" {
+	if referer := c.GetString("Referer"); referer != "" {
 		fields = append(fields, zap.String("httpReferer", referer))
 	}
 

@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/gin-contrib/requestid v1.0.2
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-go-code/goost-guard v1.0.0
+	github.com/go-go-code/goost-guard v1.2.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	go.uber.org/zap v1.27.0
